@@ -63,9 +63,7 @@ export default function Navbar() {
               className={styles.navLink}
               activeClassName={styles.active}
               to='/'
-            ><h2 className={styles.logoImg}>
-               Car World
-              </h2>
+            ><img  className={styles.logoImg} src={"carWorld.gif"} alt="" />
             </NavLink>
       
       <ul className={styles.navLinks}>

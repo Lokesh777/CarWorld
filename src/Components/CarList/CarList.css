@@ -22,7 +22,7 @@ ul > p{
    font-weight:600;
 }
 ul > p:hover{
-   background-color: blueviolet;
+   background-color: #5d16ea;
    color: #ccc;
    transform: scale(.91);
 }
@@ -31,7 +31,7 @@ ul > p:hover{
     gap: 1px;
 }
 .pagination button{ 
-   background-color: blueviolet;
+   background-color: #5d16ea;
    color: antiquewhite;
    margin: 2px;
 }
@@ -86,7 +86,7 @@ padding: 20px;
     display: flex;
     z-index: 99;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-color: #5d16ea;
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
@@ -147,7 +147,7 @@ padding: 20px;
       right:0;
       display: flex;
       z-index: 99;
-      background-color: blueviolet;
+      background-color: #5d16ea;
       color: #fff;
       padding: 1rem;
       border-radius: .5rem;

@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: blueviolet;
+  background-color: #5d16ea;
   color: #fff;
   /* padding: 1rem; */
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -66,8 +66,7 @@
 }
 
 .logoImg{
-  font-weight: bolder;
-  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  width: 4rem;
 }
 
 /* Dropdown menu */

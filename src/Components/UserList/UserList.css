@@ -13,7 +13,7 @@
     color: rgb(3, 3, 32);
 }
 .userLeft:hover{
-    background-color: blueviolet;
+    background-color: #5d16ea;
     color: #fff;
     padding: 2px;
     text-align: center;
@@ -40,13 +40,13 @@
   left:30%;
   display: flex;
   z-index: 99;
-  background-color: blueviolet;
+  background-color: #5d16ea;
   color: #fff;
   padding: 2rem;
   border-radius: 1rem;
 }
 .popup >button{
-    background-color: blueviolet;
+    background-color: #5d16ea;
     border: 0;
 }
 .UserPupCard{
@@ -109,7 +109,7 @@
       right:0;
       display: flex;
       z-index: 99;
-      background-color: blueviolet;
+      background-color: #5d16ea;
       color: #fff;
       padding: 1rem;
       border-radius: .5rem;
