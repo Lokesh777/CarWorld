@@ -1,0 +1,175 @@
+.carList{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.carContainer{
+    display: flex;
+    text-align: center;
+}
+.carLeftList{
+    width:30%;
+    height: 100vh;
+    border-right: 5px solid #ccc;
+    text-align: left;
+    background-color: rgb(187, 185, 203);
+}
+.carLeftList h1{
+     color: rgb(3, 3, 27);
+     font-weight: bolder;
+     text-align: center;
+}
+ul > p{
+   font-weight:600;
+}
+ul > p:hover{
+   background-color: blueviolet;
+   color: #ccc;
+   transform: scale(.91);
+}
+.pagination{
+    text-align: center;
+    gap: 1px;
+}
+.pagination button{ 
+   background-color: blueviolet;
+   color: antiquewhite;
+   margin: 2px;
+}
+.carListRight{
+    margin-top: .5rem;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1rem;
+    gap: 1rem;
+    align-content: center;
+}
+.pagination button:hover{
+    background-color: rgb(5, 2, 38);
+    color: #ccc;
+    transform: scale(1.2);
+    border: 0;
+}
+.carRight{
+width: 70%;
+padding: 20px;
+}
+.carRightHeading{ 
+  color: #fff;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.userListBtn > button {
+    background-color: #fff;
+    color: rgb(4, 4, 35);
+    padding: .5rem;
+    margin: 1rem 1rem;
+    font-weight: bolder;
+    border: 0;
+}
+
+.carCard{
+    color: rgb(4, 4, 35);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.carCard img{
+    width: 80%;
+
+}
+.popup{
+    position: fixed;
+    top: 30%;
+    right:0;
+    /* width: max-content; */
+    display: flex;
+    z-index: 99;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+  }
+.popPupCard{
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+  
+}
+.usersRight >h1{
+    color: rgb(3, 3, 35)
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .carListRight{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: .3rem;
+        gap: .2rem;
+    }
+    .carLeftList{
+        width: 35%;
+        height: 100vh;
+        border-right: 0px solid #ccc;
+        padding: 2px;
+        text-align: left;
+        background-color: rgb(196, 196, 199);
+    }
+    
+    .carLeftList h1{
+         color: rgb(3, 3, 27);
+         font-weight: bold;
+         /* text-align: left; */
+         font-size: larger;
+    }
+    .carRight{
+        text-align: center;
+        width: 62%;
+    }
+    .carCard{
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+        font-size: small;
+    }
+    .popPupCard{
+        color: #fff;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+      
+    }
+    
+    .popup{
+      position: fixed;
+      top: 12%;
+      right:0;
+      display: flex;
+      z-index: 99;
+      background-color: blueviolet;
+      color: #fff;
+      padding: 1rem;
+      border-radius: .5rem;
+    }
+    .userListBtn > button {
+        background-color: #fff;
+        color: rgb(4, 4, 35);
+        padding: .5rem;
+        margin: 1rem 1rem;
+        font-weight: bolder;
+        border: 0;
+        flex-wrap: wrap;
+    }
+
+    .UserPupCard{
+        color: #fff;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+        border: 0;
+    }
+    ul > p{
+        font-weight:500;
+        font-size: small;
+     }
+}

@@ -1,0 +1,130 @@
+.userList{
+   display: flex;
+
+}
+.userListLeft{
+    width: 15%;
+    height: 100vh;
+    border-right: 3px solid #ccc;
+    padding: 20px;
+    background-color: rgb(196, 196, 199);
+}
+.userLeft{
+    color: rgb(3, 3, 32);
+}
+.userLeft:hover{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    padding-top: 2px;
+}
+/* card details */
+.userCard{
+    color: rgb(4, 4, 35);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+}
+.popPupCard{
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+  
+}
+
+.popup{
+  position: fixed;
+  top: 20%;
+  left:30%;
+  display: flex;
+  z-index: 99;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.popup >button{
+    background-color: blueviolet;
+    border: 0;
+}
+.UserPupCard{
+    color: #fff;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+    border: 0;
+}
+
+.usersRight{
+    text-align: center;
+    width: 85%;
+}
+
+.userListRight{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1rem;
+    gap: 1rem;
+    align-content: center;
+    /* margin-left: 1rem; */
+    /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+     .userListRight{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: .3rem;
+        gap: .2rem;
+    }
+    .userListLeft{
+        width: 35%;
+        height: 100vh;
+        border-right: 0px solid #ccc;
+        padding: 2px;
+        background-color: rgb(196, 196, 199);
+    }
+    .usersRight{
+        text-align: center;
+        width: 62%;
+    }
+    .userCard{
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+        font-size: small;
+    }
+    .popPupCard{
+        color: #fff;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+      
+    }
+    
+    .popup{
+      position: fixed;
+      top: 12%;
+      right:0;
+      display: flex;
+      z-index: 99;
+      background-color: blueviolet;
+      color: #fff;
+      padding: 1rem;
+      border-radius: .5rem;
+    }
+ 
+    .UserPupCard{
+        color: #fff;
+        border-radius: 5px;
+        padding: .5rem 0rem;
+        border: 0;
+    }
+    .userLeft >div{
+        font-size: small;
+    }
+    .usersRight > h1{
+font-size: x-large;
+    }
+}

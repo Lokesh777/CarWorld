@@ -1,0 +1,33 @@
+.tableBox{
+    width: 100%;
+    text-align:center;
+    background-color:lightyellow;
+
+}
+.rowHead{
+    text-align:center;
+    border:1px solid gray;
+
+}
+.row{
+    text-align:center;
+    border:1px solid blueviolet;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .tableBox{
+    width: auto;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    }
+    .row{
+        width: 2rem;
+        flex-wrap: wrap;
+    }
+    .rowHead{
+        width: 2rem;
+        flex-wrap: wrap;
+    }
+}

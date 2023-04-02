@@ -1,0 +1,71 @@
+.ageContainer{
+    width: 100%;
+}
+.carAgeNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ageHead{
+    margin-right: 15rem;
+}
+.ageSelect{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: rgb(3, 3, 36);
+}
+.ageSelect{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: rgb(3, 3, 36);
+}
+.ageSelect select{
+    width: 3rem;
+    height: 1.4rem;
+}
+.modelSelect{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: rgb(3, 3, 36);
+}
+.modelSelect select {
+  width: 5rem;
+  height: 1.5rem;
+}
+label {
+ font-size: 22px;
+}
+.chartage{
+ width: 60%;
+ margin: auto;
+}
+
+.modelSelect{
+    margin: auto;
+    text-align: center;
+    margin-left: 30%;    
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+      .chartage{
+        width: 100%;
+        margin: auto;
+       }
+       .carAgeNav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ageHead{
+        margin-right: 0rem;
+    }
+    .modelSelect{
+        margin: auto;
+        text-align: center;
+        margin-left: 0%;    
+    }
+    .carAgeNav h1{
+        font-size: large;
+    }
+}

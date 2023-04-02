@@ -1,0 +1,147 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+/* Hamburger button */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Hamburger lines */
+.hamburgerLine {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* Navigation links */
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual navigation link */
+.navLink {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Active navigation link */
+.active {
+  background-color: #555;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: calc(100vh - 4rem);
+  background-color: #222;
+  padding: 1rem;
+  overflow-y: scroll;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logoImg{
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/* Dropdown menu */
+.dropdownMenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual dropdown link */
+.dropdownLink {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Active dropdown link */
+.active {
+  background-color: #444;
+}
+
+/* Show the dropdown when the menu is open */
+.showMenu .dropdown {
+  transform: translateX(0);
+}
+
+.dropPopPup{
+  background-color: blueviolet;
+  color: #fff;
+  display: flex;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Hide the navigation links */
+  .navLinks {
+    display: none;
+  }
+
+  /* Show the hamburger button */
+  .hamburger {
+    display: block;
+  }
+
+  /* Show the navigation links in the dropdown */
+  .showMenu .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+
+  .dropdownLink{
+    text-decoration: none;
+    color: #fff;
+  }
+  /* Hide the dropdown when the menu is closed */
+  .navbar:not(.showMenu) .dropdown {
+    transform: translateX(-100%);
+
+  }
+  .dropPopPup{
+    /* border: 1px solid red; */
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .dropdownItem :hover{
+    background-color: rgb(9, 3, 50);
+    color: #fff;
+  }
+  
+}
