@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 const links = [
   { path: "/cardata", title: "All Data" },
-  { path: "/userlist", title: "Users List" },
+  { path: "/carlist", title: "Cars List" },
   { path: "/carage", title: "Car Age by Year" },
   { path: "/barchart", title: "Country Bar Chart" },
   { path: "/carmodel", title: "Car Model Pie Chart" },

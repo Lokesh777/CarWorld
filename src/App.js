@@ -17,11 +17,11 @@ function App() {
          <Navbar />
        <UserProvider>
           <Routes>
-              <Route path='/' element={<CarList />} />
+              <Route path='/'element={<UserList />} />
+              <Route path='/carlist' element={<CarList />} />
               <Route path='/cardata' element={<UserTable />} />
               <Route path='/barchart'element={<BarChartByCountry />} />
               <Route path='/carmodel'element={<CarModelPieChart />} />
-              <Route path='/userlist'element={<UserList />} />
               <Route path='/carage'element={<CarAgePieChart />} />
           </Routes>
        </UserProvider>
